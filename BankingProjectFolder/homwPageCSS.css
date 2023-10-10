@@ -1,0 +1,87 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(23, 136, 59, 0.47111344537815125) 0%,
+    rgba(0, 212, 255, 0) 95%
+  );
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+.navbar .btn {
+  min-height: 3.8rem;
+  width: 15%;
+  border-radius: 15px;
+  border: 3px solid grey;
+  font-size: 1.3rem;
+}
+.navbar,
+.navbar-expand-lg,
+.bg-body-tertiary {
+  background: transparent;
+}
+.navbar-nav {
+  justify-content: center;
+  flex-grow: 1; /* This makes the ul take up all available space */
+}
+
+.navbar-brand {
+  margin-right: auto; /* Push the image to the left corner */
+}
+
+.btn {
+  margin-left: auto; /* Push the button to the right corner */
+}
+
+.mainConatiner {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.mainConatiner > * {
+  padding: 2rem;
+}
+.mainConatiner > * h1 {
+  font-size: 3.7rem;
+}
+.mainConatiner > * p {
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+.mainConatiner .btn {
+  color: whitesmoke;
+  background-color: green;
+  min-height: 3.8rem;
+  width: 70%;
+  border: none;
+  font-size: 1.3rem;
+}
+.mainConatiner .imageSide {
+  transform: translateY(80px);
+}
+.mainConatiner .imageSide img {
+  width: auto;
+  height: auto;
+  transform: scale(1.3);
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+.userCount h1 {
+  font-size: 1.7rem;
+  line-height: 0;
+  text-align: center;
+}
+
+.userCount p {
+  font-size: 1.3rem;
+  line-height: 0;
+  margin: auto;
+  text-align: center;
+}
